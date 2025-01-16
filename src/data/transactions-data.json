@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "type": "Payment",
+    "amount": 200,
+    "name": "Top-up",
+    "description": "Top-up from paypal card",
+    "date": "2023-10-01",
+    "isPending": true,
+    "authorizedUser": "Ivan",
+    "source": "PayPal",
+    "methodUsed": "PayPal Account",
+    "percentage": "1%",
+    "iconName": "bank"
+  },
+  {
+    "id": 2,
+    "type": "Credit",
+    "amount": 45,
+    "name": "IKEA",
+    "description": "Kitchenware",
+    "date": "2023-10-03",
+    "isPending": false,
+    "methodUsed": "Visa Card",
+    "percentage": "3%",
+    "iconName": "ikea"
+  },
+  {
+    "id": 3,
+    "type": "Credit",
+    "amount": 100,
+    "name": "Target",
+    "description": "Clothing",
+    "date": "2023-10-04",
+    "isPending": false,
+    "authorizedUser": "Elena",
+    "methodUsed": "Virtual Card",
+    "iconName": "target"
+  },
+  {
+    "id": 4,
+    "type": "Credit",
+    "amount": 350,
+    "name": "Apple Store",
+    "description": "AirPods Pro",
+    "date": "2023-10-05",
+    "isPending": false,
+    "iconName": "apple",
+    "percentage": "2%"
+  },
+  {
+    "id": 5,
+    "type": "Payment",
+    "amount": 150,
+    "name": "Top-up",
+    "description": "Top-up via PayPal",
+    "date": "2023-10-06",
+    "isPending": false,
+    "percentage": "3%",
+    "source": "PayPal",
+    "methodUsed": "PayPal Account",
+    "iconName": "paypal"
+  },
+  {
+    "id": 6,
+    "type": "Credit",
+    "amount": 90,
+    "name": "Starbucks",
+    "description": "Coffee and snacks",
+    "date": "2023-10-07",
+    "isPending": false,
+    "iconName": "starbucks"
+  },
+  {
+    "id": 7,
+    "type": "Credit",
+    "amount": 120,
+    "name": "Amazon",
+    "description": "Book purchase",
+    "date": "2023-10-08",
+    "isPending": false,
+    "iconName": "amazon",
+    "percentage": "2%"
+  },
+  {
+    "id": 8,
+    "type": "Credit",
+    "amount": 220,
+    "name": "Zara",
+    "description": "Clothing",
+    "date": "2023-10-09",
+    "isPending": false,
+    "iconName": "zara"
+  },
+  {
+    "id": 9,
+    "type": "Credit",
+    "amount": 60,
+    "name": "McDonald’s",
+    "description": "Fast food",
+    "date": "2023-10-11",
+    "isPending": false,
+    "iconName": "mcdonalds"
+  },
+  {
+    "id": 10,
+    "type": "Payment",
+    "amount": 300,
+    "name": "Top-up",
+    "description": "Transfer from a friend",
+    "date": "2023-10-12",
+    "isPending": false,
+    "source": "Friend Transfer",
+    "methodUsed": "P2P Transfer",
+    "percentage": "3%",
+    "iconName": "topup"
+  }
+]

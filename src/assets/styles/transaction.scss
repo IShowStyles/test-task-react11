@@ -1,0 +1,180 @@
+@use "styles" as *;
+
+.transaction__top {
+  margin-bottom: 24px;
+}
+
+.transaction-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "block1 block2"
+    "block3 block2";
+  gap: 12px;
+  padding: 16px;
+}
+
+.transaction-grid__area1 {
+  grid-area: block1;
+}
+
+.transaction-grid__area2 {
+  grid-area: block2;
+}
+
+.transaction-grid__area3 {
+  grid-area: block3;
+}
+
+
+.big-check-mark {
+  width: 60px;
+  height: 60px;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $gray-block;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.payment-due {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-circle {
+  display: flex;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.daily-points {
+  background: $gray-block;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.payment-due {
+  background: $gray-block;
+  padding: 12px;
+  border-radius: 16px;
+}
+
+.payment-due__text {
+  margin-top: 4px;
+}
+
+.transaction-info__text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.empty-transaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  //overflow-y: scroll;
+  //  height: 100%;
+}
+
+.transaction-item {
+  display: flex;
+  background: transparent;
+  padding: 14px 8px;
+  border-bottom: 1px solid $gray-border;
+}
+
+.transaction-image {
+  display: flex;
+  align-self: center;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border-radius: 5px;
+  margin-right: 12px;
+
+
+  svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.transaction-item__percentage {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #d5d4d4;
+  color: #000;
+}
+
+
+.transaction-item__amount {
+  display: inline-flex;
+  width: 75px;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.transaction-item__amount-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.transaction-item__details {
+  margin-left: auto;
+}
+
+.transaction-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+  margin-top: 65px;
+}
+
+.transaction-item__status {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 123%;
+  letter-spacing: 0.5px;
+}
+
+.transaction-one__info {
+  background: #fff;
+  color: #000;
+  border-radius: 14px;
+  padding: 14px 18px;
+}
+
+.transaction-one__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid $gray-border;
+}
+
+.transaction-text {
+  margin-bottom: 14px;
+}
